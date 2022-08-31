@@ -11,7 +11,7 @@ const Banner = () => {
                 </div>
                 <div className="col-md-6 py-5 wow zoomIn">
                     <div className="img-fluid text-center">
-                        <img src={require('./../../../../assets/img/banner_image_1.svg').default} alt="" />
+                        <img src={require('./../../assets/img/banner_image_1.svg').default} alt="" />
                     </div>
                 </div>
             </div>

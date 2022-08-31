@@ -2,7 +2,7 @@ import React from "react";
 
 const BannerFooter = () => {
     return <div className="page-section banner-info">
-        <div className="wrap bg-image" style={{backgroundImage: require("./../../../../assets/img/bg_pattern.svg").default}}>
+        <div className="wrap bg-image" style={{backgroundImage: require("./../../assets/img/bg_pattern.svg").default}}>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
@@ -23,7 +23,7 @@ const BannerFooter = () => {
                     </div>
                     <div className="col-lg-6 py-3 wow fadeInRight">
                         <div className="img-fluid text-center">
-                            <img src={require("./../../../../assets/img/banner_image_2.svg").default} alt="" />
+                            <img src={require("./../../assets/img/banner_image_2.svg").default} alt="" />
                         </div>
                     </div>
                 </div>

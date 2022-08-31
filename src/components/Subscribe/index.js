@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
     return <div className="page-section banner-seo-check">
-        <div className="wrap bg-image" style={{ backgroundImage: require("./../../../../assets/img/bg_pattern.svg").default }}>
+        <div className="wrap bg-image" style={{ backgroundImage: require("./../../assets/img/bg_pattern.svg").default }}>
             <div className="container text-center">
                 <div className="row justify-content-center wow fadeInUp">
                     <div className="col-lg-8">

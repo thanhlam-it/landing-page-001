@@ -7,7 +7,7 @@ const Introduce = () => {
                 <div className="col-lg-4">
                     <div className="card-service wow fadeInUp">
                         <div className="header">
-                            <img src={require("./../../../../assets/img/services/service-1.svg").default} alt="" />
+                            <img src={require("./../../assets/img/services/service-1.svg").default} alt="" />
                         </div>
                         <div className="body">
                             <h5 className="text-secondary">SEO Consultancy</h5>
@@ -19,7 +19,7 @@ const Introduce = () => {
                 <div className="col-lg-4">
                     <div className="card-service wow fadeInUp">
                         <div className="header">
-                            <img src={require("./../../../../assets/img/services/service-2.svg").default} alt="" />
+                            <img src={require("./../../assets/img/services/service-2.svg").default} alt="" />
                         </div>
                         <div className="body">
                             <h5 className="text-secondary">Content Marketing</h5>
@@ -31,7 +31,7 @@ const Introduce = () => {
                 <div className="col-lg-4">
                     <div className="card-service wow fadeInUp">
                         <div className="header">
-                            <img src={require("./../../../../assets/img/services/service-3.svg").default} alt="" />
+                            <img src={require("./../../assets/img/services/service-3.svg").default} alt="" />
                         </div>
                         <div className="body">
                             <h5 className="text-secondary">Keyword Research</h5>

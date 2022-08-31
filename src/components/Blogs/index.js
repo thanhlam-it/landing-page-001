@@ -14,7 +14,7 @@ const Blogs = () => {
                     <div className="card-blog">
                         <div className="header">
                             <div className="post-thumb">
-                                <img src={require("./../../../../assets/img/blog/blog-1.jpg")} alt="" />
+                                <img src={require("./../../assets/img/blog/blog-1.jpg")} alt="" />
                             </div>
                         </div>
                         <div className="body">
@@ -28,7 +28,7 @@ const Blogs = () => {
                     <div className="card-blog">
                         <div className="header">
                             <div className="post-thumb">
-                                <img src={require("./../../../../assets/img/blog/blog-2.jpg")} alt="" />
+                                <img src={require("./../../assets/img/blog/blog-2.jpg")} alt="" />
                             </div>
                         </div>
                         <div className="body">
@@ -42,7 +42,7 @@ const Blogs = () => {
                     <div className="card-blog">
                         <div className="header">
                             <div className="post-thumb">
-                                <img src={require("./../../../../assets/img/blog/blog-3.jpg")} alt="" />
+                                <img src={require("./../../assets/img/blog/blog-3.jpg")} alt="" />
                             </div>
                         </div>
                         <div className="body">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutMe = () => {
+const AboutUs = () => {
     return <div className="page-section" id="about">
         <div className="container">
             <div className="row align-items-center">
@@ -15,7 +15,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 py-3 wow fadeInRight">
                     <div className="img-fluid py-3 text-center">
-                        <img src={require('./../../../../assets/img/about_frame.png')} alt="" />
+                        <img src={require('./../../assets/img/about_frame.png')} alt="" />
                     </div>
                 </div>
             </div>
@@ -23,4 +23,4 @@ const AboutMe = () => {
     </div>
 }
 
-export default AboutMe;
+export default AboutUs;

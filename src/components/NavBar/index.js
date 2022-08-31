@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import {
+    NavLink
+} from "react-router-dom";
 
 const NavBar = () => {
 
@@ -27,20 +30,20 @@ const NavBar = () => {
 
             <div className="navbar-collapse collapse" id="navbarContent">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="index.html">Home</a>
+                    <li className="nav-item">
+                        <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/">Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="about.html">About</a>
+                        <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/about">About</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="service.html">Services</a>
+                        <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/service">Services</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="blog.html">Blog</a>
+                        <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/blog">Blog</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="contact.html">Contact</a>
+                        <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/contact">Contact</NavLink>
                     </li>
                     <li className="nav-item">
                         <a className="btn btn-primary ml-lg-2" href="#">Free Analytics</a>

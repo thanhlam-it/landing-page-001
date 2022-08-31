@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-    return <footer className="page-footer bg-image" style={{ backgroundImage: require("./../../../../assets/img/world_pattern.svg").default }}>
+    return <footer className="page-footer bg-image" style={{ backgroundImage: require("./../../assets/img/world_pattern.svg").default }}>
         <div className="container">
             <div className="row mb-5">
                 <div className="col-lg-3 py-3">
