@@ -20,10 +20,6 @@ import PageNotFound from "./pages/Errors/PageNotFound";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-import "./assets/css/maicons.css";
-import "./assets/css/bootstrap.css";
-import "./assets/vendor/animate/animate.css";
-import "./assets/css/theme.css";
 import './App.css';
 
 function App() {
